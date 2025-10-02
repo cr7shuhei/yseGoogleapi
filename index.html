@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>現在地情報</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>現在地</h1>
+
+        <div class="info-item">
+            <span class="info-label">緯度</span>
+            <span id="latitude" class="info-value">-</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">経度</span>
+            <span id="longitude" class="info-value">-</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">市町村名</span>
+            <span id="city" class="info-value">-</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">大字名</span>
+            <span id="town" class="info-value">-</span>
+        </div>
+
+        <div id="error-message"></div>
+
+        <div class="button-container">
+            <button id="getLocationBtn">現在地を取得</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

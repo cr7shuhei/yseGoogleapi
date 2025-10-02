@@ -1,0 +1,66 @@
+/* CSS: 見た目を整えます */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee;
+}
+.info-item:last-of-type {
+    border-bottom: none;
+}
+.info-label {
+    font-weight: bold;
+    color: #555;
+}
+.info-value {
+    font-family: monospace;
+    font-size: 1.1em;
+    color: #3498db;
+    min-width: 100px;
+    text-align: right;
+}
+#error-message {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 1rem;
+    display: none; /* 初期状態では非表示 */
+}
+.button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+#getLocationBtn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#getLocationBtn:hover {
+    background-color: #2980b9;
+}
